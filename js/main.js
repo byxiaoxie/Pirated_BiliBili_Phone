@@ -15,3 +15,11 @@ $(".search-icon").click(function(){
     }
     
 })
+
+$(".box_item_left").click(function(){
+    alert("椎名ましろが世界一かわいい( ´ ω ` )");
+})
+
+$(".box_item_right").click(function(){
+    alert("椎名ましろが世界一かわいい( ´ ω ` )");
+})
