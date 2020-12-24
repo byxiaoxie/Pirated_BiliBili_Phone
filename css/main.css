@@ -132,7 +132,7 @@ nav{
     user-select: none;
     -webkit-appearance: none;
     -webkit-tap-highlight-color: transparent;
-    padding: 0 4.26667vw;
+    padding: 0 4vw;
     color: #505050;
     text-decoration:none;
 }
@@ -142,8 +142,7 @@ nav{
 }
 
 .v-switcher_header_anchor{
-    width: 30%;
-    transform: translateX(31%);
+    width: 12%;
     transition-duration: 300ms;
     display: block;
     position: absolute;
@@ -156,6 +155,31 @@ nav{
     pointer-events: none;
     background: currentColor;
 }
+
+.v-switcher_header_anchor_1{
+    transform: translateX(12%);
+}
+
+.v-switcher_header_anchor_2{
+    transform: translateX(155%);
+}
+
+.v-switcher_header_anchor_3{
+    transform: translateX(295%);
+}
+
+.v-switcher_header_anchor_4{
+    transform: translateX(435%);
+}
+
+.v-switcher_header_anchor_5{
+    transform: translateX(575%);
+}
+
+.v-switcher_header_anchor_6{
+    transform: translateX(722%);
+}
+
 
 .main{
     display: inline-block;
