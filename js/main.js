@@ -46,18 +46,26 @@ $(".v-switcher_header_ul a").click(function(){
     $(".v-switcher_header_anchor").removeClass("v-switcher_header_anchor_5");
     $(".v-switcher_header_anchor").removeClass("v-switcher_header_anchor_6");
 
+    $(".card-box").addClass("hide");
+
     if (index == 0){
         $(".v-switcher_header_anchor").addClass("v-switcher_header_anchor_1");
+        $(".card-box").eq(index).removeClass("hide");
     }else if(index == 1){
         $(".v-switcher_header_anchor").addClass("v-switcher_header_anchor_2");
+        $(".card-box").eq(index).removeClass("hide");
     }else if(index == 2){
         $(".v-switcher_header_anchor").addClass("v-switcher_header_anchor_3");
+        $(".card-box").eq(index).removeClass("hide");
     }else if(index == 3){
         $(".v-switcher_header_anchor").addClass("v-switcher_header_anchor_4");
+        $(".card-box").eq(index).removeClass("hide");
     }else if(index == 4){
         $(".v-switcher_header_anchor").addClass("v-switcher_header_anchor_5");
+        $(".card-box").eq(index).removeClass("hide");
     }else if(index == 5){
         $(".v-switcher_header_anchor").addClass("v-switcher_header_anchor_6");
+        $(".card-box").eq(index).removeClass("hide");
     }
 
 })
