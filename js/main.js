@@ -1,3 +1,9 @@
+$(function(){
+    setTimeout(function() { 
+        window.scrollTo(0, 1) 
+    }, 0);
+});
+
 $(".face").click(function(){
     alert("别点我头像CDD");
 })
