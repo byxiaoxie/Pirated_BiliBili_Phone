@@ -4,6 +4,10 @@
     -webkit-font-smoothing: antialiased;
 }
 
+body{
+    overflow: hidden;
+}
+
 body *,head{
     height:100%;
     margin: 0;
@@ -324,7 +328,7 @@ article{
 }
 
 footer{
-    position: fixed;
+    position: sticky;
     left: 0px;
     bottom: 0px;
     width: 100%;
@@ -332,10 +336,6 @@ footer{
     background-color: #fff;
     z-index: 9999;
     border-top:1px solid #f3f3f3
-}
-
-.container{
-    padding-bottom: 2.85714286rem !important;
 }
 
 .home_icon{
